@@ -12,6 +12,32 @@ img {
   font-weight: 900;
 }
 
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+
+.box2{
+  display: flex;
+  gap: 52px;
+}
+
+.box3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px; /*makes sures that element width cannot be more than 200px*/
+  /*width = 200px can also be used but since this standard model the width would width of content, I think its better to assume its width of element in top*/
+}
+.text{
+  text-align: center;
+}
+.comment{
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
